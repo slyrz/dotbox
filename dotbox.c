@@ -197,7 +197,7 @@ main (int argc, char **argv)
    * running systemd's sandbox script.
    */
   if (mount (NULL, "/", "", MS_PRIVATE | MS_REC, NULL) != 0)
-    err (EXIT_FAILURE, "chown");
+    err (EXIT_FAILURE, "mount");
 
   user.gid = getgid ();
   user.uid = getuid ();
