@@ -6,7 +6,7 @@ Gives you a fresh new home to experiment with your or other people's dotfiles.
 
 The `dotbox` command starts a shell in a temporary new home directory.
 
-		dotbox path/to/directory
+    dotbox path/to/directory
 
 Running the above command would open a shell where every program uses `path/to/directory`
 as your home directory. This way you can edit and test dotfiles without modifying your actual
